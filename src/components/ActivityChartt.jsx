@@ -51,7 +51,7 @@ const ActivityChartt = () => {
   return (
     <div className="bg-[#1f2029] p-3 rounded-lg shadow-lg  ">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-white text-lg">Activity</h2>
+        <h2 className="text-white text-lg font-bold mb-4">Activity</h2>
         <button className="text-gray-400 bg-gray-700 p-2 rounded-lg">Weekly</button>
       </div>
       <Bar data={data} options={options} />

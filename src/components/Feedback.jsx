@@ -91,7 +91,7 @@ const  Feedback=()=> {
             {/*    <img src="profile-pic-placeholder.jpg" alt={`Profile picture of ${item.name}`} className="w-8 h-8 rounded-full mr-2"/> */}
             <img src={item.profile} alt={`Profile picture of ${item.name}`} className="w-8 h-8 rounded-full mr-2"/>
                 <div>
-                    <div className="text-white font-bold">{item.name}</div>
+                    <div className="text-white font-semibold">{item.name}</div>
                     <div className="text-yellow-400">{item.rating}</div>
                     <div className="text-gray-400">
                         {item.comment}
