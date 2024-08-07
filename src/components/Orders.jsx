@@ -4,6 +4,7 @@ import second from "../../public/dummy-profile-02.jpg"
 import thrid from "../../public/dummy-profile-03.png"
 import forth from "../../public/dummy-profile-04.jpg"
 import fifth from "../../public/dummy-profile-05.png"
+
 const PROFILE={
   first,
   second,

@@ -81,7 +81,7 @@ const  Feedback=()=> {
     ];
     
   return (
-    <div className="bg-[#1f2029] p-4 rounded h-[70vh] overflow-auto ">
+    <div className="bg-[#1f2029] p-4 rounded h-[100vh] overflow-auto ">
   
     <h2 className="text-white text-lg font-bold mb-4">Customers Feedback</h2>
     <div className="mt-4">

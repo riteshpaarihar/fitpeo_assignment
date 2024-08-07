@@ -12,11 +12,13 @@ function App() {
         <div className="flex h-screen overflow-auto">
           <SideNav/>
 
-          <div className="w-[95%] ml-[5%]">
+          <div className="w-[95%] ml-[5%] width_repo">
           <Navbar/>
-          <div className="p-3">
+          <div className="p-3 mr_res">
           <h3 className="text-white text-lg font-bold mb-4">Dashboard</h3>
           <Main/>
+        
+         
           </div>
           
 

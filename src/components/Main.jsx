@@ -10,7 +10,9 @@ import { IoMdArrowDropup } from "react-icons/io";
 import Orders from "./Orders";
 import OptionList from "./OptionList";
 import Feedback from "./Feedback";
-
+import ActivityChartt from "./ActivityChartt";
+import NetProfitDisplay from "./NetProfitDisplay";
+import "../css/style.css";
 
 
 
@@ -81,7 +83,7 @@ const Main = () => {
             <Card key={item.id} item={item} />
           ))}
         </div>
-        <div className="my-2"> <ActivityChart /></div>
+        <div className="my-2 "> <ActivityChartt /></div>
        
         <div className="my-2"> <Orders/></div>
        
@@ -89,8 +91,10 @@ const Main = () => {
        
       </div>
       <div className="w-full md:w-1/3 lg:w-1/3">
-      <div className="my-2 px-2"><OptionList/></div>
-      <div className="my-2 px-2"><Feedback/></div>
+      
+      <div className="my-2 px-2 compo_res"><NetProfitDisplay/></div>
+      <div className="my-2 px-2 compo_res"><OptionList/></div>
+      <div className="my-2 px-2 compo_res"><Feedback/></div>
           </div>
     </div>
   );
